@@ -69,7 +69,6 @@ public class MQTTSubscriber extends MQTTConfig implements MqttCallback, MQTTSubs
 				+ new String(message.getPayload()));
 		System.out.println("***********************************************************************");
 		System.out.println();
-
 	}
 
 	/*
