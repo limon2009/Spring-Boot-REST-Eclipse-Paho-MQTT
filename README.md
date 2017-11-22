@@ -8,10 +8,5 @@ The architecture of the project looks like this:
 
 For more details of this implementation, please visit: <a id="monirthought" href="http://www.monirthought.com/2017/11/eclipse-paho-java-client-mqtt-client.html"/> Monir</a>
 
-<script>
- var link = document.getElementById('monirthought');
- link.removeAttribute('rel');
-</script>
-
  
 
