@@ -22,7 +22,7 @@ public class DemoRestController {
 	
 	@RequestMapping(value = "/mqtt/send", method = RequestMethod.POST)
 	public String index(@RequestBody String data) {
-		publisher.publishMessage("demoTopic", data);
+		publisher.publishMessage("demoTopic2017", data);
 		return "Message sent to Broker";
 	}
 

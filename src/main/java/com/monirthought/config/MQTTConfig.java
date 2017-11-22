@@ -10,7 +10,7 @@ public abstract class MQTTConfig {
 
 	protected final String broker = "iot.eclipse.org";
 	protected final int qos = 2;
-	protected Boolean hasSSL = false; /* Default SSL is disabled */
+	protected Boolean hasSSL = false; /* By default SSL is disabled */
 	protected Integer port = 1883; /* Default port */
 	protected final String userName = "testUserName";
 	protected final String password = "demoPassword";
